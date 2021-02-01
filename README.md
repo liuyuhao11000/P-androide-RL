@@ -49,7 +49,7 @@ And that should be it!
 ## Example of command
 
 ```
-python3 main_pg --env_name Pendulum-v0 --nb_repet 1 --nb_cycles 500 --max_episode_steps 200 --policy_type squashedGaussian
+python main_pg.py --env_name Pendulum-v0 --nb_repet 1 --nb_cycles 500 --max_episode_steps 200 --policy_type squashedGaussian
 ```
 
 The list of possible arguments is found in arguments.py, together with the default values
