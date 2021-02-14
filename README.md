@@ -11,3 +11,9 @@ python main_pg.py --env_name Pendulum-v0 --nb_repet 1 --nb_cycles 500 --max_epis
 # SAC 
 
 The SAC version used for our test comes from cleanrl (https://github.com/vwxyzjn/cleanrl) and the results concern about Pendulum.
+
+# SAC of SB3
+
+github of SB3 : https://github.com/DLR-RM/stable-baselines3
+
+to compute the result of SAC, calls on the console test_sac(0.2) of sac.py
