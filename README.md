@@ -17,3 +17,12 @@ The SAC version used for our test comes from cleanrl (https://github.com/vwxyzjn
 github of SB3 : https://github.com/DLR-RM/stable-baselines3
 
 to compute the result of SAC, calls on the console test_sac(0.2) of sac.py
+
+Some different results are in the file sac_pendulum_tensorboard :
+SAC_1 : alpha = 0.2 buffer_size = 100000
+SAC_2 : alpha = 0.2 buffer_size = 2000
+SAC_3 : alpha = 0.2 buffer_size = 250
+SAC_4 : alpha = 0.02 buffer_size = 2000
+SAC_5 : alpha = 0.9 buffer_size = 2000
+SAC_6 : alpha = 0  buffer_size = 2000
+SAC_7 : alpha = 0.2  buffer_size = 2000 without random samples from replay buffer (instead contiguous samples)
