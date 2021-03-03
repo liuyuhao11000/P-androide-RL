@@ -29,6 +29,12 @@ SAC_7 : alpha = 0.2  buffer_size = 2000 without random samples from replay buffe
 
 # Results
 
+learning_rate = 0.0007
+learning_starts = 5000
+soft update coefficient = 0.005
+discount factor = 0.99
+Minibatch size for each gradient update = 256
+
 sac_pendulum_tensorboard_buff : from SAC_1 to SAC_10 : buffer_sizes : [200, 400, ..., 2000] with 0.2 for alpha  
 sac_pendulum_tensorboard_alpha : from SAC_1 to SAC_11 : alphas : [0, 0.02, ..., 0.2] with buffer size 10^6  
-                                 from SAC_12 to SAC_22 : alphas : [0, 0.02, ..., 0.2] with buffer size 2000 
+sac_pendulum_tensorboard_alpha   from SAC_12 to SAC_22 : alphas : [0, 0.02, ..., 0.2] with buffer size 2000 
