@@ -26,3 +26,9 @@ SAC_4 : alpha = 0.02 buffer_size = 2000
 SAC_5 : alpha = 0.9 buffer_size = 2000  
 SAC_6 : alpha = 0  buffer_size = 2000  
 SAC_7 : alpha = 0.2  buffer_size = 2000 without random samples from replay buffer (instead contiguous samples)  
+
+# Results
+
+sac_pendulum_tensorboard_buff : from SAC_1 to SAC_10 : buffer_sizes : [200, 400, ..., 2000] with 0.2 for alpha  
+sac_pendulum_tensorboard_alpha : from SAC_1 to SAC_11 : alphas : [0, 0.02, ..., 0.2] with buffer size 10^6  
+                                 from SAC_12 to SAC_22 : alphas : [0, 0.02, ..., 0.2] with buffer size 2000 
