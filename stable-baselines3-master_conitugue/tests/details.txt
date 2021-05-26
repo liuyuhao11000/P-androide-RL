@@ -1,0 +1,9 @@
+graphes à légendes avec statistiques moyenne de courbes
+minibatch à 128
+timesteps = 20000
+autre chose avec tensorboard, plutot avec plot
+avant week end si possible
+
+samples contigues a tester egalement
+
+autre pendulum ?
