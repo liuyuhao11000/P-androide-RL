@@ -7,7 +7,9 @@ Le dossier Basic Policy Graident Lab contient l'implémentation de l'algorithme 
 Les dossiers _stable baselines 3_ contiennent les implémentations des algorithmes d'apprentissage par renforcement dans lesquels nous avons effectués des modifications pour notre étude par ablation. Il est donc possible qu'il y ait des bugs mineures. Néanmoins, voici le lien original de _stable baselines 3_ où vous avez également une explication sur son utilisation :
 https://github.com/DLR-RM/stable-baselines3  
 
-Les résultats de notre étude par ablation sont quant à eux disposibles dans le dossier _Experimental results_.  
+Les résultats de notre étude par ablation sont disposibles dans le dossier _Experimental results_.  
+
+Le rapport du projet est quant à lui disponible dans le dossier Ressources.
 
 Enfin, voici le lien de notre vidéo concernant la présentation de notre projet : https://drive.google.com/drive/folders/1FslJ9VmcYSbL8w7sjeQ0notSl8-W7cDv?usp=sharing  
 
