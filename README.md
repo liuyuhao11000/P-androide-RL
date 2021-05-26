@@ -12,5 +12,8 @@ Les résultats de notre étude par ablation sont quant à eux disposibles dans l
 Enfin, voici le lien de notre vidéo concernant la présentation de notre projet : https://drive.google.com/drive/folders/1FslJ9VmcYSbL8w7sjeQ0notSl8-W7cDv?usp=sharing  
 
 Si vous avez des questions, vous pouvez nous envoyer aux mails suivants : 
+
 Vincent Fu :
-Yuhao Liu
+
+Yuhao Liu :
+
