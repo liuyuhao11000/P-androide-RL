@@ -1,0 +1,63 @@
+{'gamma': 0.98,
+ 'normalize_advantage': False,
+ 'max_grad_norm': 0.3,
+ 'use_rms_prop': True,
+ 'gae_lambda': 0.9,
+ 'n_steps': 1,
+ 'lr_schedule': 'constant',
+ 'lr': 0.0006062188181544739,
+ 'ent_coef': 6.032370752478804e-07,
+ 'vf_coef': 0.9648002220429381,
+ 'ortho_init': False,
+ 'net_arch': 'medium',
+ 'activation_fn': 'relu'}
+
+
+""" "small":[dict(pi=[64, 64], vf=[64, 64])]
+    "medium:[dict(pi=[256, 256], vf=[256, 256])] """
+
+
+{'gamma': 0.98,
+ 'normalize_advantage': True,
+ 'max_grad_norm': 1,
+ 'use_rms_prop': True,
+ 'gae_lambda': 0.9,
+ 'n_steps': 1,
+ 'lr_schedule': 'constant',
+ 'lr': 0.00033449110737887957,
+ 'ent_coef': 0.03826151159203985,
+ 'vf_coef': 0.862067985941033,
+ 'ortho_init': True,
+ 'net_arch': 'small',
+ 'activation_fn': 'relu'}
+
+""" TEST AVEC D'AUTRES HYPERPARAMTRES SANS FIXER N_STEPS """
+
+{'gamma': 0.98,
+ 'normalize_advantage': True,
+ 'max_grad_norm': 0.6,
+ 'use_rms_prop': True,
+ 'gae_lambda': 1.0,
+ 'n_steps': 16,
+ 'lr_schedule': 'constant',
+ 'lr': 0.0062600149785268094,
+ 'ent_coef': 4.375033639494308e-06,
+ 'vf_coef': 0.5153875890760352,
+ 'ortho_init': False,
+ 'net_arch': 'small',
+ 'activation_fn': 'tanh'}
+
+
+{'gamma': 0.98,
+ 'normalize_advantage': True,
+ 'max_grad_norm': 0.6,
+ 'use_rms_prop': True,
+ 'gae_lambda': 0.99,
+ 'n_steps': 16,
+ 'lr_schedule': 'linear',
+ 'lr': 0.015296121058035428,
+ 'ent_coef': 0.033905710264306214,
+ 'vf_coef': 0.6546775172381635,
+ 'ortho_init': False,
+ 'net_arch': 'small',
+ 'activation_fn': 'tanh'}
